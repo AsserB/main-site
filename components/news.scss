@@ -1,83 +1,68 @@
-.news{
-    padding-top: 2rem;
-
-    .news__inner{
-        height: 30rem;
-        display: flex;
-        align-items: center;
-    }
+.news__content{
+    padding: 5rem 0 5rem 0;
+    background: url(../img/photodraw.ru-31717.jpeg);
 }
 
-.event{
+
+.news__inner{
+    width: 100%;
+    height: 30rem;
+    display: flex;
+}
+
+.news__item{
+    position: relative;
     width: 68%;
     height: 100%;
     overflow: hidden;
-    position: relative;
-    display: flex;
+}
 
-    .event__img{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        z-index: 1;
-        transform: translate3d(-50%, -50%, 0);
-        width: 100%;
+.news__img{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    opacity: 0.8;
+    transition: opacity 0.2s linear;
+    transition: width 0.2s linear;
+
+    &:hover{
+        opacity: 1;
+        width: 110%;
     }
 }
 
-.slider__items{
-    display: flex;
-    flex-direction: column;
-}
-.event__content{
-   z-index: 2;
-   width: 100%;
-   height: 80%;
-   position: absolute;
-   display: flex;
-   justify-content: center;
-   align-items: flex-end;
-   .event__text{
-       background: rgba(0, 0, 0, 0.445);
-       width: 63%;
-       display: flex;
-       flex-direction: column;
-       text-shadow: 1px 1px 1px rgb(0 0 0 / 69%);
-
-    .event__date{
-        font-size: 1rem;
-        color: #fff;
-    }
-    .event__title{
-        padding-top: 1rem;
-        font-size: 2.5rem;
-        color: #fff;
-    }
-   }
-    
-}
-
-.event__button{
-    display: flex;
-    justify-content: center;
-    padding-top: 1.47rem;
-}
-
-.event__side{
+.news__side{
     width: 30%;
     height: 100%;
-    margin-left: 1.47rem;
+    margin-left: 2rem;
 
-    .event__side--item{
-        width: 100%;
-        height: 48%;
-        margin-bottom: 1.47rem;
-        overflow: hidden;
-        &:last-child{
-            margin-bottom: 0;
-        }
+}
+
+.news__side--item{
+    margin-top: 2rem;
+    height: 47%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    &:first-child{
+        margin: 0;
     }
-    .side__img{
-        width: 100%;
+}
+
+.side__img{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    opacity: 0.8;
+    transition: opacity 0.2s linear;
+    transition: height 0.2s linear;
+
+    &:hover{
+        opacity: 1;
+        height: 110%;
     }
 }
