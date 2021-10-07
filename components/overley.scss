@@ -1,0 +1,39 @@
+.overley{
+    position: absolute;
+    background-color: #292929;
+    color: #fff;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__list--overley{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5rem;
+    &:first-child{
+        margin-left: 0;
+    }
+}
+
+.menu__item--overley{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.overley__close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.close__icon{
+    width: 40%;
+}
