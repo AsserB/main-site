@@ -2,6 +2,7 @@
 @import "./normalize.css";
 .header {
   background: url(../img/photodraw.ru-31717.jpeg) center no-repeat;
+  background-size: cover;
 }
 
 .menu {
@@ -538,6 +539,9 @@ html {
 html,
 body {
   height: 100%;
+  background: url(../img/bg-lightl-888.jpg);
+  background-blend-mode: hard-light;
+  background-color: #f2f4fdab;
 }
 
 body {
