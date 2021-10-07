@@ -1,24 +1,35 @@
 .header {
-    background: #000081be;
+    background: url(../img/photodraw.ru-31717.jpeg) center no-repeat;
 }
 
 .menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .menu__list{
     display: inline-flex;
     width: 50%;
     white-space: nowrap;
+    justify-content: flex-end;
+    align-items: center;
 
     .menu__item{
         margin-right: 1rem;
+        &:last-child{
+            margin-right: 0;
+        }
 
         .menu__link{
             font-size: 1.1rem;
             color: #fff;
+            transition: font-size 0.1s linear;
+            &:hover{
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
         }
     }
 }

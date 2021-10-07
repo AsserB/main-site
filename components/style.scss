@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import "./normalize.css";
 @import "header";
+@import "nav";
 @import "hamburger";
 @import "./media.scss";
 @import "news";
@@ -96,6 +97,24 @@ html{
 .hamburger{
   @include notebook{
     display: inline-flex;
+  }
+}
+
+/*------NAV--------*/
+
+.nav__inner{
+  @include notebook{
+      width: 100%;
+      height: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+.hamburger--nav{
+  @include notebook{
+    display: none;
   }
 }
 
