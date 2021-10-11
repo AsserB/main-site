@@ -1,6 +1,5 @@
 .header {
-    background: url(../img/photodraw.ru-31717.jpeg) center no-repeat;
-    background-size: cover;
+    background: url(../img/shattered--dark--520x260.png);
 }
 
 .menu{
@@ -24,13 +23,9 @@
         }
 
         .menu__link{
-            font-size: 1.1rem;
+            font-size: 1.2rem;
+            font-weight: 500;
             color: #fff;
-            transition: font-size 0.1s linear;
-            &:hover{
-                font-size: 1.3rem;
-                font-weight: bold;
-            }
         }
     }
 }
@@ -54,9 +49,10 @@
         margin-left: 1.5rem;
         width: 53%;
         .logo__title{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 600;
             color: #fff;
+            text-transform: uppercase;
         }
     }
 }

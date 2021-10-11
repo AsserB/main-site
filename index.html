@@ -39,87 +39,69 @@
                         <a href="#" class="menu__link">Работодателям</a>
                     </li>
                 </ul>
-                <a href="#" class="hamburger" id="openOverley">
+                <div class="hamburger">
+                    <p class="hamburger__text">Меню</p>
+                <a href="#" class="hamburger__list" id="openOverley">
                     <span class="hamburger__plank"></span>
                     <span class="hamburger__plank"></span>
                     <span class="hamburger__plank"></span>
                 </a>
+                </div>
             </nav>
         </div>
     </header>
 
-    <section class="nav">
-        <div class="container">
-            <div class="nav__inner">
-                <ul class="menu__list--nav">
-                    <li class="menu__item">
-                        <a href="#" class="menu__link--nav">Образовательная организации</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link--nav">Контакты</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link--nav">Помощь</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link--nav">н.тел +7(914)-29-29-452</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
     <section class="news">
         <div class="news__content">
-        <div class="container">
-            <div class="news__inner">
-                <div class="news__item">
-                    <img src="./img/anons-1.jpg" alt="" class="news__img">
-                    <div class="news__item--content">
-                        <div class="news__paginator">
-                            <div class="paginator__up">
-                                <img src="./img/upload.png" alt="" class="paginator__icon">
+            <div class="container">
+                <div class="news__inner">
+                    <div class="news__item">
+                        <img src="./img/anons-1.jpg" alt="" class="news__img">
+                        <div class="news__item--content">
+                            <div class="news__text">
+                                <div class="news__text--content">
+                                    <p class="news__date">07.10.2021</p>
+                                    <h1 class="news__title">Анонс Мероприятия</h1>
+                                </div>
                             </div>
-                            <ul class="paginator__list">
-                                <li class="paginator__item"></li>
-                                <li class="paginator__item"></li>
-                                <li class="paginator__item"></li>
-                                <li class="paginator__item"></li>
-                                <li class="paginator__item"></li>
-                            </ul>
-                            <div class="paginator__down">
-                                <img src="./img/arrow-down-sign-to-navigate.png" alt="" class="paginator__icon">
-                            </div>
-                        </div>
-                        <div class="news__text">
-                            <div class="news__text--content">
-                            <p class="news__date">07.10.2021</p>
-                            <h1 class="news__title">Анонс иероприятия</h1>
+                            <div class="news__paginator">
+                                <div class="paginator__switch--prev">
+                                    <img src="./img/arrow-prev.png" alt="" class="switch__icon">
+                                </div>
+                                <ul class="paginator__list">
+                                    <li class="paginator__item active"></li>
+                                    <li class="paginator__item"></li>
+                                    <li class="paginator__item"></li>
+                                    <li class="paginator__item"></li>
+                                    <li class="paginator__item"></li>
+                                </ul>
+                                <div class="paginator__switch--next">
+                                    <img src="./img/right-next.png" alt="" class="switch__icon">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="news__side">
-                    <div class="news__side--item">
-                        <div class="news__side--content">
-                            <p class="news__side--text">Образовательные услуги и курсы</p>
-                            <div class="news__side--button">
-                            <a href="#" class="button">Подробнее</a>
+                    <div class="news__side">
+                        <div class="news__side--item">
+                            <div class="news__side--content">
+                                <p class="news__side--text">Образовательные услуги и курсы</p>
+                                <div class="news__side--button">
+                                    <a href="#" class="button">Подробнее</a>
+                                </div>
+                            </div>
                         </div>
-                        </div>
-                    </div>
-                    <div class="news__side--item">
-                        <img src="./img/side-2.jpg" alt="" class="side__img">
-                        <div class="news__side--content">
-                            <p class="news__side--text">Платные услуги</p>
-                            <div class="news__side--button">
-                            <a href="#" class="button">Подробнее</a>
+                        <div class="news__side--item">
+                            <img src="./img/side-2.jpg" alt="" class="side__img">
+                            <div class="news__side--content">
+                                <p class="news__side--text">Платные услуги</p>
+                                <div class="news__side--button">
+                                    <a href="#" class="button">Подробнее</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
     </section>
 
     <section class="programms">
@@ -137,7 +119,7 @@
                             том числе с помощью внедрения адаптивных, практико-ориентированных и
                             гибких образовательных программ.</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
 
@@ -150,7 +132,7 @@
                             кадров. проводит всероссийские чемпионаты профессионального мастерства по пяти направлениям
                         </p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -163,9 +145,8 @@
                             ориентации и мотивации инвалидов и лиц с ограниченными возможностями здоровья (далее – ОВЗ)
                             к получению профессионального образования.</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
-
                     </div>
                 </div>
                 <div class="programms__item">
@@ -178,7 +159,7 @@
                             материально-технической базой, соответствующей международным стандартам и передовым
                             технологиям.</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +173,7 @@
                             При этом, вторым основным итогом обучения стало развития самих участников – их компетенций и
                             возможности профессионального роста.</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +186,7 @@
                             передовых технологиях и методиках практической подготовки, а также полученных
                             образовательных результатов.</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -218,7 +199,7 @@
                             выпускников по программам среднего профессионального образования образовательных
                             организаций высшего и среднего профессионального образования</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -231,7 +212,7 @@
                             подсистемы
                             Единой государственной системы предупреждения и ликвидации чрезвычайных ситуаций.</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -243,7 +224,7 @@
                             общественных объединений для содействия всестороннему развитию молодого человека, реализации
                             его потенциала в общественной сфере, защиты законных интересов и прав молодёжи.</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -254,7 +235,7 @@
                         <p class="programms__text">Информационно-аналитический, научно-методический, образовательный
                             журнал</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -269,7 +250,7 @@
                             Форум является частью регионального этапа всероссийской научно-социальной программы для
                             молодежи и школьников «Шаг в будущее».</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -283,7 +264,7 @@
                             Участниками ВПР станут студенты первых курсов, а также студенты, завершившие в предыдущем
                             учебном году освоение общеобразовательных предметов. </p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
@@ -295,7 +276,7 @@
                             dolor officiis illo
                             laboriosam, placeat quod temporibus nam enim vero?.</p>
                         <div class="programms__about">
-                            <a href="#" class="programms__link">Подробнее--></a>
+                            <a href="#" class="button button__programms">Подробнее</a>
                         </div>
                     </div>
                 </div>
